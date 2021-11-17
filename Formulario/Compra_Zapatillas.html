@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Comprar camiseta</h1>
+    <form action="http://httpbin.org/post" method="post">
+        <div>
+            <label for="nombre">nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="email">email:</label><br>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="talla">talla</label>
+            <select id="talla" name="talla">
+                <option value="39">39</option>
+                <option value="40">40</option>
+                <option value="41">41</option>
+                <option value="42">42</option>
+                <option value="43">43</option>
+                <option value="44">44</option>
+                <option value="45">45</option>
+                <option value="46">46</option>
+
+            </select>
+            <h3>Tipo de zapatilla</h3>
+            <input type="radio" name="Tipo_Zapatilla" value="1" id="tipo_infantil"> <label
+                for="tipo_infantil">Infantil</label><br>
+            <input type="radio" name="Tipo_Zapatilla" value="2" id="tipo_adulto"> <label
+                for="tipo_adulto">Adulto</label><br>
+            <h3>Complementos para la zapatilla</h3>
+            <input type="checkbox" id="nombre" name="nombre">
+            <label for="nombre"> Nombre en la zapatilla</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <input type="checkbox" id="Calecetines" name="Calcetines">
+            <label for="Calcetines"> Calcetines a juego</label><br>
+            <input type="text" id="Calcetines" name="Calcetines"><br>
+            <h3>Zapatillas a elegir</h3>
+            <input type="radio" name="Zapatillas_elegir" value="1" id="Zapatillas_Nikelebron"> <label
+                for="Zapatillas_Nikelebron">Nike Lebron</label><br>
+                <a href="https://www.nike.com/es/baloncesto/lebron-18/">Ver Nike Lebron</a><br>
+                <input type="radio" name="Zapatillas_elegir" value="1" id="Zapatillas_Jordan"> <label
+                for="Zapatillas_Jordan">Nike Jordan</label><br>
+                <a href="https://www.nike.com/es/t/air-jordan-xxxvi-first-light-zapatillas-de-baloncesto-RxPF7J/CZ2650-004">Ver Nike Jordan</a><br>
+                <input type="radio" name="Zapatillas_elegir" value="1" id="Zapatillas_Kobe"> <label
+                for="Zapatillas_Kobe">Nike Kobe</label><br>
+                <a href="https://www.nike.com/es/baloncesto/kobe-ad">Ver Nike Kobe</a><br>
+                <input type="radio" name="Zapatillas_elegir" value="1" id="Zapatillas_Harden"> <label
+                for="Zapatillas_Harden">Adidas Harden</label><br>
+                <a href="https://www.adidas.es/zapatilla-harden-vol.-5-futurenatural/GY7489.html">Ver Adidas Harden</a><br>
+                <input type="radio" name="Zapatillas_elegir" value="1" id="Zapatillas_Kawhi"> <label
+                for="Zapatillas_Kawhi">New balance kawhi</label><br>
+                <a href="https://www.newbalance.com/pd/kawhi/BBKLSV1-MPS.html">Ver New balance Kawhi</a><br>
+                <input type="radio" name="Zapatillas_elegir" value="1" id="Zapatillas_Klay"> <label
+                for="Zapatillas_Klay">Anta Klay</label><br>
+                <a href="https://www.anktshop.com/anta-kt7-disruptive-2021-winter-klay-thompson-basketball-shoes-white-light-blue.html">Ver Anta Klay</a><br>
+               
+            <h3>Fecha de compra</h3>
+            <label for="fecha_compra">Dia de compra de las zapatillas</label>
+            <input type="date" id="fecha_compra" name="fecha_compra"><br><br>
+            <label for="fecha_llegada">Dia que quiere que le llegue las zapatillas</label>
+            <input type="date" id="fecha_llegada" name="fecha_llegada">
+            <br><br><input type="submit" value="Reservar">
+    </form>
+    <a href="../Index.html">Volver pagina principal</a><br>
+</body>
+
+</html>
